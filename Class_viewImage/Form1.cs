@@ -18,15 +18,39 @@ namespace Class_viewImage
     public partial class form : Form
     {
         ClassVIewImage C_view;
-
+        static Mutex mutex;
 
         public form()
         {
             InitializeComponent();
         }
 
+        private static void kill()
+        {
+            
+            bool createdNew;
+
+            mutex = new Mutex(true, "imageviewer", out createdNew);
+
+            if (!createdNew)
+            {
+                var currentProcess = Process.GetCurrentProcess();
+                var runningProcess = Process.GetProcessesByName(currentProcess.ProcessName);
+
+                foreach (var item in runningProcess)
+                {
+                    if (item.Id != currentProcess.Id)  item.Kill(); 
+
+                }
+                                            
+
+
+            }
+        }
+
         private void Form1_Load(object sender, EventArgs e)
         {
+            kill();
             this.AllowDrop = true;
             string[] cmds = System.Environment.GetCommandLineArgs();
            
@@ -56,6 +80,11 @@ namespace Class_viewImage
             C_view.reViewImage();
             C_view.getFormSize(this.Size);
         }
-        
+
+        private void form_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            mutex.ReleaseMutex();
+            mutex.Close();
+        }
     }
 }
