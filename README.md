@@ -1,7 +1,11 @@
-<h1>image viewer</h1>
-<p>複数の画像の表示ができるので、画質の比較などに適しています。</p>
-※アニメーションgifには対応していません。
 <img src="https://github.com/takashi-koshiba/image-viewer/blob/master/1.png" style="width:300px">
+
+<h1>image viewer</h1>
+<p>複数の画像の表示ができるので、画質の比較などに適しています。<br>
+    ※アニメーションgifには対応していません。</p>
+
+
+
 <br>
 <h1>準備</h1>
 <ul>
