@@ -10,7 +10,8 @@
 <h1>準備</h1>
 <ul>
     <li>
-      <a href="https://github.com/takashi-koshiba/image-viewer/releases/tag/v1.0.0">ここ</a>からzipをダウンロード
+      <a href="https://github.com/takashi-koshiba/image-viewer/releases/tag/v1.0.0">ここ</a>からimageviewer.zip
+をダウンロード
     </li>
       <li>
       imageviewewr.exeを規定のアプリに設定するか、実行した画面に画像をD&Dしてください。
