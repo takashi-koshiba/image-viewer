@@ -1,4 +1,4 @@
-<img src="https://github.com/takashi-koshiba/image-viewer/blob/master/1.png" style="width:300px">
+<img src="https://github.com/takashi-koshiba/image-viewer/blob/master/%E3%82%AD%E3%83%A3%E3%83%97%E3%83%81%E3%83%A3.PNG" style="width:300px">
 
 <h1>image viewer</h1>
 <p>画像を圧縮無しで表示するビューアです。複数の画像の表示ができるので、画質の比較などに適しています。<br>
