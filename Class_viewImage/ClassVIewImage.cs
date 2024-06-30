@@ -528,7 +528,7 @@ namespace Class_viewImage
     }
 
 }
-
+/*
   Copyright [yyyy] [name of copyright owner]
 
    Licensed under the ImageMagick License (the "License"); you may not use
@@ -542,4 +542,4 @@ namespace Class_viewImage
    WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
    License for the specific language governing permissions and limitations
    under the License.  
-
+*/
