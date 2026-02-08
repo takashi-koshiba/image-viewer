@@ -5,7 +5,12 @@
     ※アニメーションgifには対応していません。</p>
 
 
-
+> [!IMPORTANT]
+> 
+> ⚠️ **DEPRECATED**<br>
+> このリポジトリには既知の**脆弱性**が含まれています。<br>
+> 下記のリポジトを使用してください。<br>
+<a href="https://github.com/takashi-koshiba/image-viewer-using-D2D">https://github.com/takashi-koshiba/image-viewer-using-D2D</a>
 <br>
 <h1>準備</h1>
 <ul>
